@@ -1,0 +1,142 @@
+/* Общие стили */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+ 
+body {  
+    background-color: #202020; 
+    font-family: 'Inter', sans-serif;  
+    line-height: 1.6;  
+}  
+
+.photo-grid-list {   
+    margin: 40px auto;   
+    padding: 0;   
+    list-style-type: none;   
+    display: grid;   
+    grid-template-columns: repeat(4, 1fr);   
+    gap: 12px;   
+}  
+
+.photo-grid-list li {  
+    overflow: hidden;   
+}  
+
+.photo-grid-list img {  
+    width: 100%;   
+    height: auto;   
+}  
+
+ul {  
+    list-style: none;  
+}  
+
+a {  
+    text-decoration: none;  
+    color: inherit;  
+}  
+
+ */
+.hero {
+    background-color: #eef5ff;
+    padding: 40px 0;
+    text-align: center;
+}
+/* Шапка */ 
+.header { 
+    padding: 16px 0; 
+    border-bottom: 1px solid #020202; 
+} 
+
+.header__logo { 
+    font-size: 24px; 
+    font-weight: 700;
+    color: #eef5ff;
+} 
+
+.header__menu { 
+    display: flex; 
+    gap: 16px; 
+    color: #eef5ff;
+} 
+
+.header__link { 
+    font-size: 16px; 
+    font-weight: 500; 
+    color: #007BFF; 
+} 
+
+/* Герой-блок */ 
+.hero { 
+    padding: 40px 0; 
+    text-align: center; 
+    color: #eef5ff;
+} 
+
+.hero__title { 
+    font-size: 28px; 
+    font-weight: 700; 
+    margin-bottom: 16px; 
+    color: #eef5ff;
+} 
+
+.hero__description { 
+    font-size: 16px; 
+    margin-bottom: 20px; 
+    color: #eef5ff;
+} 
+
+.hero__button { 
+    display: inline-block; 
+    padding: 12px 24px; 
+    background-color: #ff6b00; 
+    color: #eef5ff;
+    border-radius: 5px; 
+    font-size: 14px; 
+} 
+
+/* Секции */ 
+.section-title { 
+    font-size: 24px; 
+    font-weight: 700; 
+    margin-bottom: 24px; 
+    text-align: center; 
+    color: #eef5ff;
+} 
+
+/* О нас */ 
+.about__content { 
+    color: #eef5ff;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 16px; 
+} 
+
+/* Популярные туры */ 
+.tours__list { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    color: #eef5ff;
+} 
+
+/* Контакты */ 
+.contacts__list { 
+    margin-top: 16px; 
+    text-align: center; 
+    color: #eef5ff;
+} 
+
+/* Подвал */ 
+.footer { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 16px 0; 
+    text-align: center; 
+    color: #eef5ff;
+}
+
+
